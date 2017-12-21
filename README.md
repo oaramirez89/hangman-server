@@ -30,7 +30,12 @@ To execute the completed exercise:
 
 1. Clone this repo to your local desktop / laptop
 2. Maven build: clean package
-3. Start server as follows: java -jar target/hangman-server-0.0.1-SNAPSHOT.jar
+3. Start server as follows: 
+`
+java -jar target/hangman-server-0.0.1-SNAPSHOT.jar
+`
+
+Make sure you are in the hangman-server/hangman-server directory when starting server.
 
 Once server is started use Postman or curl to test as follows.
 
