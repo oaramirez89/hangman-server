@@ -35,7 +35,7 @@ To execute the completed exercise:
 java -jar target/hangman-server-0.0.1-SNAPSHOT.jar
 `
 
-Make sure you are in the hangman-server/hangman-server directory when starting server.
+Make sure you are in the hangman-server/hangman-server directory when building and starting server.
 
 Once server is started use Postman or curl to test as follows.
 
