@@ -55,10 +55,18 @@ Request body should have the following json (using gameId returned above):
 	"guess": "l"
 }
 ```
-Response json looks like this:
+Response json looks like this if you make wrong guess:
 ```javascript
 {"gameId":"OTBCBz","word":"____","incorrect":1,"status":"ACTIVE"}
 ```
+And like this if you guess right:
+```javascript
+{"gameId":"OTBCBz","word":"_u__","incorrect":1,"status":"ACTIVE"}
+```
+
+## Unit Tests ##
+
+Unit tests were written to test the GameService class which is the worker horse in this server.
 
 
 
